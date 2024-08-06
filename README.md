@@ -5,7 +5,7 @@ Car dealer's landing page
 ![image](https://github.com/user-attachments/assets/2302b344-c282-4f8c-8b73-979acb077b52)
 ![image](https://github.com/user-attachments/assets/8dc4967f-0df2-4a17-beb8-b4bd9b8c2f1e)
 
-Lonely rocks web site (щone of the first project)
+Lonely rocks web site (one of the first project)
 Game studio webs site
 ![image](https://github.com/user-attachments/assets/7e361be5-58d4-4bb1-9cff-36956837bf2a)
 ![image](https://github.com/user-attachments/assets/bbd5730b-ebfe-442a-9bf8-d9acc4c91857)
