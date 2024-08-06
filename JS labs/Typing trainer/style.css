@@ -1,0 +1,104 @@
+
+
+  .windowForGame {
+    position: fixed;
+    width: 720px;
+    height: 470px;
+    border: 1px solid #b0bdcc;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border-radius: 6px 6px 0 0;
+    margin: auto;
+    top: 150px;
+    left : 500px;
+    z-index: 0;
+}
+
+.gameZone {
+  position: fixed;
+  width: 718px;
+  height: 168px;
+  border: 1px solid #00ff22;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
+  margin: auto;
+  top: 451px;
+  left : 501px;
+  z-index: 5;
+}
+.textWindow{
+  position: fixed;
+  font-size: 14px;
+  font-weight: bold;
+  top: 355px;
+  left: 640px;
+  width: 718px;
+  z-index: 5;  
+}
+.textUp
+{
+  position: fixed;
+  font-size: 18px;
+    font-weight: bold;
+    top:90px;
+    left: 520px;
+    width: 718px;
+}
+.textDown
+{
+  position: fixed;
+  font-size: 14px;
+    top:700px;
+    left: 500px;
+    width: 730px;
+}
+.start
+{
+  padding: 3px 7px;
+  background-color: #fff;
+  left:25px;
+}
+.end
+{
+  padding: 3px 7px;
+  background-color: #fff;
+}
+.levels
+{
+  padding: 2px 1px;
+}
+.menuTexts
+{
+  text-align: center;
+  padding: 5px;
+  margin: 0 3px;
+}
+.menuPosition
+{
+  position:fixed;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #b0bdcc;
+  border-radius: 0 0 6px 6px;
+  margin: 0 3px;
+  top:621px;
+  left : 497px;
+    width: 710px;
+}
+.textEnd{
+  position:fixed;
+  display:none;
+  top:-220px;
+}
+.gameBlock {
+  border: 2px solid #b0bdcc;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  border-radius: 4px;
+}

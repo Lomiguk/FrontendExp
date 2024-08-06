@@ -1,0 +1,20 @@
+.wrapper{
+    text-align: left;
+    width: 330px;
+}
+
+p{
+    line-height: 1.2;
+    font-family: "Noto Serif",Times New Roman, Times,Baskerville, Georgia, serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: red;
+    margin: 0 4px 2px 0; 
+}

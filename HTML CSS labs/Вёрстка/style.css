@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    padding: 42pt;
+    width: 100%;
+}
+
+h3{
+    font-weight: normal;
+}
+
+.style_0{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+.style_1 h3{
+    font-size: 14pt;
+    margin-top: 12pt;
+}
+
+.style_1 p{
+    text-indent: 2em;
+    font-size: 12pt;
+}
+
+.style_2{
+    font-size: 12pt;
+    width: 100%;
+}
+
+.style_2 table{
+    width: 100%;
+}
+
+.style_2 td{
+    vertical-align: top;
+}
+
+.style_3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 18pt;
+}
+
+.style_3 p{
+    font-size: 9pt;
+    line-height: 18pt;
+}
+
+.style_4{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 6pt;
+    margin-left:31%;
+    margin-right:9%;
+}
+
+.style_4 p u{
+    letter-spacing: 5px;
+}
+
+.center{
+    width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.style_5{
+    font-size: 12pt;
+    margin-top: 18pt;
+}
+
+.style_5 h3{
+    font-size: 13pt;
+}
+
+.style_6{
+    font-size: 8pt;
+    margin-top: 12pt;
+}
+
+.style_7{
+    font-size: 10pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18pt;
+}
+
+.style_7 h3{
+    font-size: 17pt;
+}
+
+.style_8{
+   margin-top: 18pt; 
+   font-size: 10pt;
+   font-family: 'Times New Roman', Times, serif;
+}

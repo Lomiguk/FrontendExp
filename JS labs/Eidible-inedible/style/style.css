@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    /* Запрещает выделение текста(например таймера), что могло возникать во время игры */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+  body {
+    background: #82bff8;
+    min-width: 950px;
+  } 
+  
+  .text {
+    text-align: center;
+  }
+
+  .timer{
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .gameBox{
+    width: 100%;
+    height: 800px;
+  }
+
+        .gameBoxEl{
+          height: 100%;
+          float: left;
+        }
+
+        .gameBoxSideEl{
+          width: 13%;
+        }
+
+        .edibleBox{
+          background-color: greenyellow;
+        }
+
+        .spawnBox{
+          min-width: 74%;
+          height: 100%;
+          float: left;
+        }
+
+        .inedibleBox{
+          background-color: rgb(245, 78, 49);
+        }
+
+    .controls{
+      position: absolute;
+      width: 100%;
+      min-width: 950px;
+      height: 120px;
+      bottom: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+        .button{
+            height: 100px;
+            width: 200px;
+            margin-top: 10px;
+        }
+
+    .card{
+      height: 100px;
+      width: 200px;
+      padding: 10px;
+      line-height: 100px;
+      background-color:cornsilk;
+      position: relative;
+      text-align: center;
+      font-size: 25px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+  .overlay{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.514);
+  }
+
+  .resWindow{
+    position: absolute;
+    width: 20%;
+    min-width: 300px;
+    height: 20%;
+    min-height: 220px;
+    border: 2px solid silver;
+    background-color: burlywood;
+    top: 40%;
+    left: 40%;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+    .resHead{
+      margin: 20px;
+    }
+    .resBody{
+      padding: 20px;
+    }
+    .okButton{
+      
+      width: 70px;
+      height: 40px;
+      margin: 20px;
+    }
+
