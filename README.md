@@ -20,3 +20,6 @@ Cofee shop web site
 
 -------------------------------------------------------------------------------------------------------------
 
+Music box :)
+![image](https://github.com/user-attachments/assets/9166cbb4-8b91-44de-a0b2-19e976638eb7)
+
