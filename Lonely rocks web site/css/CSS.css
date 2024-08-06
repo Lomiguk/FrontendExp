@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*
+{
+ margin: 0;
+ padding: 0;
+ font-family: 'Comfortaa', cursive, Sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	background-color: #fafafa;
+}
+
+header
+{
+ display: flex;
+ height: 150px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+  .logo
+    {
+    flex: 4;
+	background-color: black; 
+  }
+  .bock
+    {
+    flex: 6;
+	background-color: black; 
+  }  
+  
+   .bock a
+   {
+	   color:  #fafafa;
+   }
+  
+  .logo img
+  {
+	max-width: 320px;
+	min-width: 300px;
+	width: 100%;
+	max-height: 190px;
+	min-height: 150px;
+	height: 100%;
+	
+	margin-left: 4%;
+	  
+  }
+  
+
+ .Zagol
+ {
+	 float: left;
+	 width: 100%;
+	 text-align: center;
+	 margin-top: 20px;
+ }
+
+ .Our_team
+ {
+	 display: flex;
+ }
+ 
+  .Our_team .bockOu
+  {
+	  flex: 1;
+  }
+  
+  .Our_team .Conteent
+  {
+	  flex: 8;
+  }
+  
+   .Our_team .Conteent .Zagolovok
+   {
+	   width: 100%;
+	   text-align: center;
+	   margin-top: 30px;
+   }
+   
+   .Our_team .Conteent .TEEXT
+   {
+	   width: 100%;
+	   text-align: center;
+   }
+   
+   .Our_team .Conteent .Bimg
+   {
+	   width: 100%;
+
+   }
+   
+    
+   
+    .Our_team .Conteent img
+   {
+	   width: 90%;
+	   margin-left: 5%;
+	   border-radius: 4px;
+	   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   
+  .Our_team .Conteent .IICol
+   {
+	   width: 94%;
+	   margin-left: 3%;
+	   display: flex;
+   }
+   
+  .Colonna
+  {
+	  flex: 1;
+  }
+  
+   .Colonna img
+   {
+	   width: 90%;
+	   border-radius: 3px;
+	   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	   margin-top: 20px;
+	   margin-bottom: 20px
+   }
+  
+  .menu
+  {
+	  
+   width: 100%;
+   height: 22px;
+   margin-top: 129px;
+   color:  #fafafa;
+  }
+ 
+  .MenuBut
+  {
+	  float: left;
+	  width:25%;
+	  height: 100%;
+	  text-align: center;
+  }
+  
+  .MenuBut:hover
+  {
+   background-color: #fafafa;
+   color: black;
+  }
+ .content
+  {
+   width: 100%;
+  }
+   
+   .menu_tab
+   { 
+    width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 8px;
+	float: left;
+   }
+   
+    .tab_point
+	{
+     width: 30%;
+	 margin-left: 3%;
+	 float: left;
+	 border-radius: 3px;
+	 position: relative;
+	 text-align: center;
+	}
+	
+	.tab_point a
+	{
+     color: black;
+	}
+	
+	.tab_point img
+	{
+      width: 100%;
+	  border-radius: 3px;
+	}
+	
+	.tab_point img:hover
+	{
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	}
+	
+
+	
+
+	
+	.polos
+	{
+		width: 70%;
+		margin-left: 15%;
+		float: left;
+		margin-top: 40px;
+	}
+	
+	.Mer
+	{
+		float: left;
+		width:94%;
+		margin-left:3%;
+		margin-right:3%;
+		margin-top: 20px;
+	}
+	
+	.Mr
+	{
+	 width: 44%;
+	 margin-left: 3%;
+	 float: left;
+     border-radius: 3px;
+     text-align: center;
+	}
+	
+    .Mr a
+	{
+		color: black;
+	}
+	
+	.Mr img
+	{
+      width: 100%;
+	  border-radius: 3px;
+	}
+	
+	.Mr img:hover
+	{
+		box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	}
+	
+
+footer
+{
+	width: 100%;
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	float: left;
+	height: 200px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	
+}	
+
+ .vverh
+ {
+	 width: 50px;
+	 height: 50px;
+	 float: right;
+	 margin: 15px;
+ }
+ 
+  .vverh img
+  {
+	 width: 100%;
+     height: 100%;	 
+  }
+  
+ .contacts
+ {
+	 float: right;
+	 margin-top: 98px;
+ }
+
+ .planka
+ {
+	 width: 240px;
+	 height:60px;
+	 background-color: #fafafa;
+     margin-top: 125px; 
+	 margin-left: 10px;
+	 border-radius: 5px;
+	 box-shadow: inset 0 0 20px #A9A9A9;
+ }
+  
+  .planka .set
+  {
+	  width: 25%;
+	  float: left;
+  }
+   
+   .planka .set:hover
+   {
+	   background-color:#A9A9A9;
+	   box-shadow: 0 0 30px rgba(0,0,0,0.5);
+   }
+   
+   .planka .I:hover
+   {
+	   border-radius: 5px 0 0 5px;
+   }
+   
+   .planka .IV:hover
+   {
+	   border-radius: 0 5px 5px 0;
+   }
+ 
+  .planka .set img
+  {
+	  width: 80%;
+	  height: 80%;
+	  margin: 10%;
+  }
+  
+
+  

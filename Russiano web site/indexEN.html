@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="UTF-8"/>
+	 <link href="FeedbackStyle.css" rel="stylesheet" type="text/css"/>
+	 <link href="MainStyle.css" rel="stylesheet" type="text/css"/>
+	 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+	 <title>Russiano</title>
+	 <link rel="shortcut icon" href="img\logos/favicon.ico" type="image/x-icon">
+  </head>
+  
+  <body>
+    <header>
+	  <div id="logo">
+	     <img src="img/logos/LogoV1_0.png">
+	  </div>
+	  <div id="HeadInfo">
+		<div id="SiteMenuI">  
+         <nav>
+            <ul class="topmenu">
+             <li><a href="indexEN.html">Home</a></li>
+             <li><a href="promotionEN.html">Promotion</a></li>
+             <li><a href="" class="down">Menu</a>
+             <ul class="submenu">
+               <li><a href="CoffeeEN.html">Coffee</a></li>
+               <li><a href="DessertsEN.html">Desserts</a></li>
+             </ul>
+            </li>
+            <!-- <li><a href="">About Team	</a></li> -->
+          </ul>
+         </nav>
+		</div>
+	  </div>
+	  <div class="LanguageSelector"><div class="CZ"><a href="indexCZ.html"><img src="img/logos/CZ.png"/></a></div>
+	  <div class="Ru"><a href="index.html"><img src="img/logos/RU.png"/></a></div></div>
+	  <span id="UPP"></span>
+	</header>
+    <div id="SiteBody">
+	  <h2 >Favorite Visitors:</h2>
+	  <div class="AddRow">
+         <div class="TheBest">
+		     <img src="img/images/Espresso.jpg"/>
+			 <h3>Espresso</h3>
+			     <div class="Cost">2.5£</div>
+				 <!--<div class="ButtonBuy"><a href="#">Buy</a></div>-->
+         </div>
+		 <div class="TheBest">
+		     <img src="img/images/Macciato.jpg"/>
+			 <h3>Macchiato</h3>
+			     <div class="Cost">2.5£</div>
+				 <!--<div class="ButtonBuy"><a href="#">Buy</a></div>-->
+         </div>
+		 <div class="TheBest">
+		     <img src="img/images/Latte.jpg"/>
+			     <h3>Latte</h3>
+			     <div class="Cost">2.5£</div>
+				 <!--<div class="ButtonBuy"><a href="#">Buy</a></div>-->
+         </div>
+	  </div>
+	  <h2>Interesting events:</h2>
+	  <div class="longRow">
+	    <div  class="longRowElement" id="longRowElement1">
+		  <img src="img/images/GameNight.jpg" style="width: 100%;"/>
+		  <div style="padding: 10px;"><h3>Monthly gaming night</h3>
+		  <p>Every 29th day of the month with us, the nights of board games will be held.<br/> You can take part and drink excellent coffee in the company)</p></div>
+		</div>
+	    <div class="longRowElement" id="longRowElement2">
+		  <img src="img/images/Comrades.jpg" style="width: 100%;" />
+		  <div style="padding: 10px;"><h3>We need are new comrades!</h3>
+		  <p>Our friendly team needs new members! Join now!<br/>
+If you are interested in our proposal write to the administrators of social networks!</p></div>
+		</div>
+	  </div>
+	  
+	  <h2>Interesting news:</h2>
+	  <div class="Events">
+	     <div class="EventsElement">
+		   <img src="img/images/Voroneczh.jpg"/>
+		   <div href="#" class="textPromo">New coffee house!</div>
+		 </div>
+		 <div class="EventsElement">
+		   <img src="img/images/Brno.jpg"/>
+		   <div href="#" class="textPromo">New coffee house!</div>
+		 </div>
+		 <div class="EventsElement">
+		   <img src="img/images/Birmingham.jpg"/>
+		   <div href="#" class="textPromo">New coffee house!</div>
+		 </div>
+		 <div class="EventsElement">
+		   <img src="img/images/SoldOut.jpg"/>
+		   <div href="#" class="textPromo">First month! First SoldOut!</div>
+		 </div>
+	  </div>
+	  <div id="FeedbackForm">
+	    <form action="/Submit.php" method="POST">
+		  <div id="FlexArea">
+		    <div id="ZoneI">
+		      <input name="email" placeholder="Email" class="Feelds"></br>
+		      <input name="name" placeholder="Name" class="Feelds"></br>
+		      <input name="phone" placeholder="Phone" class="Feelds"></br>
+		      <input type="submit" value="Send maessage" id="SendButton">
+		    </div>
+		    <div id="ZoneII">
+		      <textarea name="message" placeholder="Message" class="Feelds" id="TextField"></textarea></br>
+		    </div>
+		  </div>
+		</form>
+	  </div>
+	</div>
+    <footer>
+	  <div class="SiteMap"><ul><li><a href="#">About Team</a></li><li><a href="#">Coffee</a></li><li><a href="#">Desserts</a></li></ul></div>
+	  <div class="up"><a href="#UPP"><img src="img/logos/ToUp.png"/></a></div>
+	  <div id="Copyright">(c)2018 Russiano Corporation. All rights reserved</div>
+    </footer>
+  </body>
+</html>

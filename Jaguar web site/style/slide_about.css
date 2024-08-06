@@ -1,0 +1,107 @@
+.second{
+    background-color: #fff6ed;
+    display: flex; 
+}
+
+.second .moveAbout{
+    box-sizing: border-box;
+    flex: 1;
+    position: relative;
+
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in-out;
+
+    color: #fff6ed;
+
+    padding: 40px;
+    padding-top: 100px;
+
+    overflow: hidden;
+}
+
+.second .d_headline,
+.second .d_text{
+    text-shadow: 2px 2px 2px #2E2C27;
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in-out;
+}
+
+
+.second .d_headline{
+    font-size: 4em;
+    display: inline-block;
+}
+
+.second .d_text{
+    font-size: 28px;
+    line-height: 32px;
+    background-color: rgba(92, 91, 91, 0.671);
+    position: absolute;
+    bottom: -10010px;
+    width: 80%;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.second .moveAbout:hover .d_text{
+    bottom: 10px;
+}
+
+.second .reliability{
+    background: no-repeat url(../img/fabrico.jpg);
+    background-size: cover;
+}
+
+.second .reliability:hover{
+    flex: 70;
+    background-position: center;
+}
+
+.second .history:hover{
+    flex: 70;
+    background-position: bottom;
+}
+
+.second .speed:hover,
+.second .eco:hover
+{
+    background-position: center;
+    flex: 70;
+}
+
+
+.second .history{
+    background: no-repeat url(../img/oldCar.jpeg);
+    background-size: cover;  
+}
+
+.second .speed{
+    background: no-repeat url(../img/fasterBrit.jpg);
+    background-size: cover;  
+}
+
+.second .eco{
+    background: no-repeat url(../img/ecoRus.jpg);
+    background-size: cover;  
+}
+
+.second .moveAbout:hover{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none; /* IE 6-9 */
+}

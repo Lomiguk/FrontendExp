@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(222, 222, 222,1);
+    font-family: "Arial";
+}
+
+.progressbar{
+    height: 100px;
+    width: 760px;
+    position: relative;
+    transform-style: preserve-3d;
+    /*border: 1px solid black;*/
+    transform: rotateX(-20deg) rotateY(-40deg);
+}
+.side{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(254, 254, 254, 0.3);
+}
+.side_bottom{
+    transform: rotateX(90deg);
+    box-shadow: 10px 5px 50px 5px rgba(0,0,0,.25);
+    transform-origin: bottom;
+}
+.side_top{
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+.side_back{
+    transform: translateZ(-100px);
+}
+.side_left{
+    width: 100px;
+    transform:  rotateY(90deg);
+    transform-origin: left;
+    background-color: rgba(240, 58, 71, .5);
+}
+.side_fill{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(240, 58, 71, .5);
+    transition: .3s all linear;
+}
+.prgressbar_controller{
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    font-size: 22px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(240, 58, 71, .5);
+    box-shadow: 1px -2px 0px 0px rgba(175,91,91, 1),
+                2px -2px 0px 0px rgba(175,91,91, 1),
+                3px -2px 0px 0px rgba(175,91,91, 1);
+    cursor: pointer;
+}
+.progressbar_checker{
+    display: none;
+}
+.progressbar_checker:checked + .prgressbar_controller{
+    background-color: rgba(175, 91, 91, 1)
+}
+
+#zero:checked ~ div > .side_fill{
+    width: 0;
+}
+#twenty_five:checked ~ div > .side_fill{
+    width: 25%;
+}
+#fifty:checked ~ div > .side_fill{
+    width: 50%;
+}
+#seventy_five:checked ~ div > .side_fill{
+    width: 75%;
+}
+#one_hundred:checked ~ div > .side_fill{
+    width: 100%;
+}

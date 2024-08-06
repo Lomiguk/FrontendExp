@@ -1,0 +1,86 @@
+.wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;   /*Положение элемента устанавливается относительно его исходного места. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального расположения.*/
+    color: white;
+    text-align: center;
+    height: 40px;         /*Size of button*/
+    width: 100%;
+}
+
+#check-menu{
+    box-sizing: border-box;
+    display: none;  /*delete the check box*/
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    position: absolute;  /*Указывает, что элемент абсолютно позиционирован, при этом другие элементы отображаются на веб-странице словно абсолютно позиционированного элемента и нет. Положение элемента задается свойствами left, top, right и bottom, также на положение влияет значение свойства position родительского элемента. Так, если у родителя значение position установлено как static или родителя нет, то отсчет координат ведется от края окна браузера. Если у родителя значение position задано как fixed, relative или absolute, то отсчет координат ведется от края родительского элемента.*/
+    top: 0;              /*culture*/
+    left: 0;             /*culture*/
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;          /**/
+    line-height: 40px;   /*post the text in the center of height*/
+}
+
+.burger-line{
+    box-sizing: border-box;
+    position: absolute;
+    top: 8px;
+    right:10px;         /*move to right side*/
+    width: 32px;        /*Creation the line*/
+    height: 2px;        /*Creation the line*/
+    background-color: black;
+}
+
+.second, .third{
+    box-sizing: border-box;
+    top: 18px;
+}                         
+                          
+.fourth{  
+    box-sizing: border-box;                
+    top: 28px;
+}
+
+.main-menu{
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);  /*Сдвигает элемент по вертикали на указанное значение. Положительное значение сдвигает вниз, отрицательное вверх.*/
+    max-height: 0;                /*hide the boxs*/
+    font-size: 0;                 /*hide the text*/
+    overflow: hidden;             /*hide the element*/
+    transition: .5s all;          /*animation*/
+}
+
+.main-menu a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border-top: 1px solid rgba(255, 255, 255, .3); /*separator*/
+    background-color: lightcoral;
+    color: white;
+}
+
+.main-menu a:hover{
+    background-color: #fff; 
+    border-left: 1px solid ;
+    border-right: 1px solid ;
+    border-bottom: 1px solid ;
+    color: black;
+}
+
+#check-menu:checked ~ .main-menu{
+    box-sizing: border-box;
+    max-height: 500px;            /*show the boxs*/
+    font-size: 16px;              /*show the text*/
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #042f36;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.title{
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid orange;
+    animation: flashing-border 0.75s step-end infinite, print-text 5s steps(15) infinite;
+    width: 15ch;
+}
+
+@keyframes flashing-border{
+    0%{
+        border-color: orange;
+    }
+    50%{
+        border-color: transparent;
+    }
+    100%{
+        border-color: orange;
+    }
+}
+
+@keyframes print-text{
+    from{
+        width: 0;
+    }
+}

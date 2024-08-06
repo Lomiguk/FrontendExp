@@ -1,0 +1,99 @@
+*{
+    padding: 0;                        
+    margin: 0;
+    -webkit-box-sizing: border-box;    /*shotdownt settings to none*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;                                        
+}
+.wrapper{
+    width: 450px;
+    margin: 200px auto 0 auto;         /* moving btn to center*/
+    text-align: center;
+}
+
+.btn{
+    display:inline-block;              
+    width: auto;
+    text-transform: uppercase;          /*all capital letters*/
+    height: 55px;                       
+    line-height: 55px;
+    color:#000;
+    font-family: 'Arial';
+    font-size: 20px;
+    background-color: transparent;      /*invisible*/
+    padding: 0 35px;
+    cursor: pointer;
+    transition: .5s color;
+    position: relative;
+    border: none;                       /*without border*/
+}
+
+.btn::before{                           /*creation new inside's element*/
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #a30b37;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: toBottom 3s ease infinite;
+    transition: .4s all;
+    z-index: -2;
+}
+
+.btn::after{                            /*creation new inside's element*/
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #bd6b73;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: toTop 3s ease infinite;
+    transition: .4s all;
+    z-index: -1;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn:hover::before{
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    animation: none;
+}
+
+.btn:hover::after{
+    width: 100%;
+    height: 100%;
+    animation: none;
+}
+
+@keyframes toBottom{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 40px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+@keyframes toTop{
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 40px;
+    }
+    100%{
+        bottom: 0;
+    }
+}

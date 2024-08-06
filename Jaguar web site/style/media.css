@@ -1,0 +1,247 @@
+
+
+@media (max-width: 3840px) and (min-width: 3000px){
+    .first{
+        height: 1600px;
+    }
+
+    header{
+        min-height: 200px;
+    }
+
+    .map > .map_point{
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    .content_box{
+        height: 1600px;
+    }
+
+    .first .text{
+        top: 500px;
+        left: 100px;
+    }
+
+    .first .text h2{
+        font-size: 8em;
+    }
+    
+    .first .text p{
+        font-size: 4em;
+    }
+
+    .sellBlock{
+        height: 300px;
+    }
+
+    .sellBlock:hover{
+        cursor: pointer;
+        background-color: #fff6ed;
+        padding: 15px;
+    }
+
+    .sellBlock h5{
+        font-size: 3em;
+    }
+
+    .sellBlock p{
+        font-size: 3em;
+    }
+
+    .sellBlock:hover  h5{
+        font-size: 3.1em;
+    }
+    
+    .sellBlock:hover p{
+        font-size: 3.1em;
+    }
+
+    .sellBlock img{
+        width: 40%;
+        top: 20px;
+        right: 20px;
+    }
+
+    .first_plus .text,
+    .second_plus .text{
+        font-size: 3em;
+    }
+
+    .first_plus h3,
+    .second_plus h3{
+        font-size: 3em;
+    }
+
+    .second .d_headline{
+        font-size: 7em;
+        margin: 50px;
+    }
+
+    .second .d_text{
+        padding: 20px;
+        font-size: 4em;
+        line-height: 1.35em;
+        text-indent: 2em;
+        bottom: -20010px;
+    }
+
+    .third{
+        height: 900px;
+    }
+
+    .third .s_headline{
+        font-size: 3em;
+        line-height: 3em;
+    }
+
+    .third .s_content .button{
+        width: 180px;
+        height: 180px;
+        margin-top: 300px;
+    }
+
+    .third .s_content .Images .item{
+        font-size: 3em;
+    }
+
+    .fourth{
+        height: 1000px;
+    }
+
+    .fourth .o_headline{
+        font-size: 4em;
+        line-height: 2em;
+    }
+
+    .fourth .content .list{
+        font-size: 4em;
+        line-height: 1.5em;
+    }
+
+    footer{
+        padding: 50px;
+    }
+
+    footer .f_h h6{
+        font-size: 4em;
+        margin-bottom: 6px;
+        margin-bottom: 20px;
+        line-height: 2em;
+    }
+
+    footer .list{
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 2000px) and (min-width: 1535px){
+    .sellBlock img{
+        height: 100%;
+    }
+}
+
+@media (max-width: 1536px) and (min-width: 1403px){
+    .content_box{
+        height: 700px;
+    }
+}
+
+@media (max-width: 1404px){
+    .content_box{
+        height: 600px;
+    }
+
+    .sellBlock{
+        border-top: 10px;
+        height: 150px;
+    }
+
+    .sellBlock h5{
+        font-size: 1em;
+    }
+    
+    .sellBlock p{
+        font-size: 0.6em;
+    }
+
+    .sellBlock:hover{
+        border-top: 0px;
+    }
+
+    .sellBlock:hover h5{
+        font-size: 1em;
+    }
+    
+    .sellBlock:hover p{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 1297px) and (min-width: 1079px){
+    .first_plus .text,
+    .second_plus .text{
+        text-align: justify;  
+        font-weight: bolder;
+        font-size: 1em;
+        width: 40%;
+        padding-top: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .first_plus h3,
+    .second_plus h3{
+        color: #DA3909;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    
+
+
+    .third{
+        height: 300px;
+    }
+}
+
+@media (max-width: 1080px) and (min-width: 719px){
+    .content_box{
+        height: 480px;
+    }
+
+    
+    .first_plus .text,
+    .second_plus .text{
+        text-align: justify;  
+        font-weight: bolder;
+        font-size: 1em;
+        width: 50%;
+        padding-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .first_plus h3,
+    .second_plus h3{
+        color: #DA3909;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    .second .d_headline{
+        font-size: 3em;
+    }
+
+    .second .d_text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 800px){
+    .sellBlocks{
+        flex-direction: column;
+    }
+}
+

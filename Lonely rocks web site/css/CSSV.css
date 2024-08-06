@@ -1,0 +1,53 @@
+.vacanciii
+{
+	display: flex;
+}
+ 
+  .bokovichka
+  {
+	  flex: 1;
+  }
+  
+  .vacasii
+  {
+	  flex: 8;
+  }
+   
+   .vacansia
+   {
+	   width: 100%;
+   }
+   
+   .vacansia img
+   {
+	   width: 98%;
+	   margin-left: 1%;
+	   margin-right: 2%;
+	   margin-top: 30px;
+	   margin-bottom: 20px;
+	   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	   border-radius: 3px;
+   }
+   
+   .vacansia .tehet
+   {
+	   width: 80%;
+	   margin-left: 10%;
+	   margin-right: 10%;
+   }
+   
+  .donate
+  {
+	  display: flex;
+  }
+  
+   .soderg
+   {
+	   flex: 8;
+	   background-color:#D3D3D3;
+	   border-radius: 4px;
+	   width: 100%;
+	   min-height: 10px;
+	   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	   margin-top: 30px;
+   }

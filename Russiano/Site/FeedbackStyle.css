@@ -1,0 +1,41 @@
+#FeedbackForm{
+  Width:80%;
+  margin-left:10%;
+  background-color: #daad86;
+  margin-bottom: 30px;
+  border-radius: 8px;  
+}
+
+.Feelds{
+  width:90%;
+  margin-left: 5%; 
+  margin-top:10px;
+  border-radius: 2px;  
+}
+
+#FlexArea{
+  display:flex;
+}
+
+  #ZoneI{
+	  flex:1;
+  }
+  
+    #SendButton{
+		width:70%;
+		margin-left:15%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		height: 30px;
+		Background-color: #FFDDC0;
+		border-radius: 5px; 
+	}
+  
+  #ZoneII{
+	  flex:2;
+  }
+  
+    #TextField{
+		height: 400px;
+		margin-bottom: 5px;
+	}

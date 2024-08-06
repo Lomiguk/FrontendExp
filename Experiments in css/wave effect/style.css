@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+.Im{
+    background: url(https://pp.userapi.com/c845321/v845321635/11124b/5kONc6cCtMU.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.IIm{
+    background: url(https://pp.userapi.com/c850428/v850428344/273d8/i6Zzq980oWE.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 3;
+}
+
+.main_title{
+    color: white;
+    font-family: 'Arial';
+}
+
+.overlay{
+    width: 5%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+    transition: 1.8s linear;
+}
+
+.ovI{
+    background: url(https://pp.userapi.com/c845217/v845217128/10dbf1/ul5QhUo5Xww.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ovII{
+    background: url(https://pp.userapi.com/c851332/v851332667/1ccd8/t1SrEiB7fBA.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay:hover{
+    transition: 0s linear;
+    opacity: 0;
+}
